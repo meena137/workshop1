@@ -10,5 +10,5 @@ st.radio("gender",["male","female"],index=None)
 
 if name:
   st.write(f'hello,{name}!')
-if st.file_uploader('pls upload file:',type=['txt,'csv']):
+if st.file_uploader('pls upload file:',type=['txt','csv']):
   st.write("thanks for uploading")
